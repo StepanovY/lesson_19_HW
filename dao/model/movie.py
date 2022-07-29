@@ -1,3 +1,6 @@
+# Модель и схема таблицы Фильмы с установкой связи с таблицей Директор и таблицей Жанр
+
+
 from marshmallow import Schema, fields
 
 from dao.model.director import DirectorSchema
@@ -28,4 +31,4 @@ class MovieSchema(Schema):
     rating = fields.Float()
 
     genre = fields.Pluck(GenreSchema, 'name')
-    director = fields.Pluck(DirectorSchema,'name')
+    director = fields.Pluck(DirectorSchema, 'name')

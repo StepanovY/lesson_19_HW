@@ -1,3 +1,6 @@
+# Модель и схема таблицы Жанры
+
+
 from marshmallow import Schema, fields
 
 from setup_db import db

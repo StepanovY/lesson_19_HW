@@ -1,3 +1,6 @@
+# Методы создания, обновления, удаления, получения аналогичны классу MovieDAO
+
+
 from dao.model.director import Director
 
 

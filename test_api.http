@@ -20,11 +20,12 @@ Accept: application/json
 
 GET http://127.0.0.1:8000/directors/
 Accept: application/json
-
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE2NTkxMTU2MTh9.q57-jWJ5HxasD9Y60HZsXcmTScxmJvu1REzfU_ZtvH4
 ###
 
 GET http://127.0.0.1:8000/directors/1
 Accept: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Iml2YW4iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE2NTkwMzczNTh9.6IupPp43cXwF8YC7SBqUAs4ix3PZ3ZkudaBCOEgyfcw
 
 ###
 

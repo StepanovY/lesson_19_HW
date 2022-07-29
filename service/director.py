@@ -1,3 +1,5 @@
+# Реализация бизнес-логики, за моделями обращаемся к DAO
+
 from dao.director import DirectorDAO
 
 

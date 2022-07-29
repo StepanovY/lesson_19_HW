@@ -5,3 +5,4 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     RESTX_JSON = {'ensure_ascii': False, 'indent': 4}
     JSON_SORT_KEYS = False
+

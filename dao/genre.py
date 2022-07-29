@@ -1,3 +1,5 @@
+# Методы создания, обновления, удаления, получения аналогичны классу MovieDAO
+
 from dao.model.genre import Genre
 
 
